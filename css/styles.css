@@ -63,6 +63,9 @@ color: #404bbf;
 .header-contacts-link:hover {
     color: #404bbf;
 }
+.header-contacts-link:focus {
+    color: #404bbf;
+}
 /*-------------SOLUTIONS------------*/
 .solutions {
     background: #2e2f42;
@@ -80,7 +83,13 @@ color: #404bbf;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
+        background-color: #4D5AE5;
 }
+.solutions-button:hover {
+    background-color: #404BBF;}
+        .solutions-button:focus {
+            background-color: #404BBF;
+        }
 
 /*-------------advantages------------*/
 .advantages {
@@ -157,7 +166,12 @@ color: #404bbf;
 
 .portfolio-item {}
 
-.portfolio-image {}
+.portfolio-image {
+    width: 360;
+        height: 300;
+        angle: 0 deg;
+        opacity: 1;
+}
 
 .portfolio-subtitle {
     font-weight: 500;
@@ -186,7 +200,7 @@ color: #404bbf;
 .footer-logo {
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #f4f4fd;
