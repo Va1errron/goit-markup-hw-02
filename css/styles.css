@@ -167,9 +167,8 @@ color: #404bbf;
 .portfolio-item {}
 
 .portfolio-image {
-    width: 360;
-        height: 300;
-        angle: 0 deg;
+    width: 360px;
+        height: 300px;
         opacity: 1;
 }
 
